@@ -1,0 +1,65 @@
+/* ---------- BODY & BACKGROUND ---------- */
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(120deg, #667eea, #764ba2);
+    height: 100vh;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+    background: rgba(255,255,255,0.95);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #667eea;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #333;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #667eea;
+}
+
+/* ---------- HOME BOX ---------- */
+.home-box {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    animation: fadeIn 0.8s ease;
+}
+
+.home-box h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.home-box p {
+    font-size: 20px;
+    color: #f0f0f0;
+}
+
+/* ---------- ANIMATION ---------- */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

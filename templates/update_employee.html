@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='veiw.css') }}">
+
+<div class="container">
+    <form action="/update" method="post">
+    <input type="hidden" name="id" value="{{emp[0]}}">
+    <input name="name" value="{{emp[1]}}">
+    <input name="email" value="{{emp[2]}}">
+    <input name="role" value="{{emp[3]}}">
+    <input name="salary" value="{{emp[4]}}">
+    <button>Update</button>
+</form>
+</div>

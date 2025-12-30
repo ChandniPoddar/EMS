@@ -1,0 +1,110 @@
+/* ---------- PAGE BACKGROUND ---------- */
+body {
+    margin: 0;
+    background: linear-gradient(120deg, #f6f9fc, #eef1f6);
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ---------- NAVBAR ---------- */
+.top-nav {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    padding: 14px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.nav-links .primary {
+    background: #2ecc71;
+}
+
+.nav-links .danger {
+    background: #e74c3c;
+}
+
+/* ---------- TITLE ---------- */
+.title {
+    text-align: center;
+    margin: 30px 0;
+    color: #2c3e50;
+}
+
+/* ---------- TABLE ---------- */
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.emp-table {
+    width: 92%;
+    background: white;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.emp-table th, .emp-table td {
+    padding: 14px;
+    text-align: center;
+}
+
+.emp-table th {
+    background: #2c3e50;
+    color: white;
+    text-transform: uppercase;
+}
+
+.emp-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.emp-table tr:hover {
+    background: #eef3ff;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn {
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 4px;
+    transition: 0.3s;
+}
+
+.btn.edit {
+    background: #3498db;
+    color: white;
+}
+
+.btn.delete {
+    background: #e74c3c;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}
